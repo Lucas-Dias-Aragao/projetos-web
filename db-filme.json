@@ -1,0 +1,98 @@
+{
+  "filmes": [
+    {
+      "titulo": "Matrix",
+      "estreia": "31 de março de 1999",
+      "duracao": "136 minutos",
+      "classificacao": "14 anos",
+      "idioma": "Inglês",
+      "orcamento": "$63 milhões",
+      "bilheteria": "$463.5 milhões",
+      "produtora": "Village Roadshow Pictures",
+      "estudio": "Warner Bros. Pictures",
+      "diretor": "The Wachowskis",
+      "roteirista": "The Wachowskis",
+      "teaser": "https://www.youtube.com/watch?v=m8e-FF8MsqU",
+      "poster": "https://example.com/matrix-poster.jpg",
+      "atores": [
+        "Keanu Reeves",
+        "Laurence Fishburne",
+        "Carrie-Anne Moss"
+      ],
+      "genero": [
+        "Ação",
+        "Ficção Científica"
+      ],
+      "sinopse": "Um hacker descobre a verdade por trás da realidade simulada na qual ele está vivendo.",
+      "id": "7500"
+    },
+    {
+      "titulo": "Interestelar",
+      "estreia": "6 de novembro de 2014",
+      "duracao": "169 minutos",
+      "classificacao": "12 anos",
+      "idioma": "Inglês",
+      "orcamento": "$165 milhões",
+      "bilheteria": "$677.5 milhões",
+      "produtora": "Legendary Pictures",
+      "estudio": "Paramount Pictures",
+      "diretor": "Christopher Nolan",
+      "roteirista": "Jonathan Nolan, Christopher Nolan",
+      "teaser": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+      "poster": "https://example.com/interestelar-poster.jpg",
+      "atores": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain"
+      ],
+      "genero": [
+        "Ficção Científica",
+        "Aventura"
+      ],
+      "sinopse": "Um grupo de exploradores espaciais embarca em uma jornada para encontrar um novo lar para a humanidade.",
+      "id": "4f3f"
+    },
+    {
+      "titulo": "O Poderoso Chefão",
+      "estreia": "15 de março de 1972",
+      "duracao": "175 minutos",
+      "classificacao": "16 anos",
+      "idioma": "Inglês, Italiano, Latim",
+      "orcamento": "$6 milhões",
+      "bilheteria": "$246 milhões",
+      "produtora": "Paramount Pictures",
+      "estudio": "Paramount Pictures",
+      "diretor": "Francis Ford Coppola",
+      "roteirista": "Mario Puzo, Francis Ford Coppola",
+      "teaser": "https://www.youtube.com/watch?v=sY1S34973zA",
+      "poster": "https://example.com/o-poderoso-chefao-poster.jpg",
+      "atores": [
+        "Marlon Brando",
+        "Al Pacino",
+        "James Caan"
+      ],
+      "genero": [
+        "Drama",
+        "Crime"
+      ],
+      "sinopse": "A saga de uma família mafiosa italiana nos Estados Unidos após a Segunda Guerra Mundial.",
+      "id": "2606"
+    },
+    {
+      "id": "bac5",
+      "titulo": "teste",
+      "estreia": "2233-02-11",
+      "duracao": "99",
+      "classificacao": "L",
+      "idioma": "coreano",
+      "orcamento": "99",
+      "bilheteria": "99",
+      "produtora": "teste",
+      "estudio": "teste",
+      "diretor": "teste",
+      "roteirista": "teste",
+      "atores": "Ator 3; ",
+      "genero": "kk"
+    }
+  ]
+}

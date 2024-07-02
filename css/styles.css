@@ -1,0 +1,54 @@
+/* tela de cadastro */
+.altura-sidebar {
+    height: 100%;
+}
+
+.custom-width {
+    width: 50%;
+}
+
+form {
+    height: 200px;
+}
+
+.form-select-color {
+    border: 1px solid #d1d3e2;
+    color: #6e707e;
+}
+
+.btn-custom {
+    height: 2.2rem;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn-excluir, .btn-editar {
+    border: none;
+    color: #4e73df;
+    background-color: white;
+}
+
+.btn-excluir:hover, .btn-editar {
+    color: #1e3a90;
+    
+}
+
+@media screen and (min-width: 770px){
+    .genero-altura {
+        max-height: 120px;
+        box-sizing: border-box;
+    } 
+    .scroll-form {
+        max-height: 400px;
+        max-width: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+}
