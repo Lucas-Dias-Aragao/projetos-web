@@ -52,3 +52,22 @@ textarea {
         box-sizing: border-box;
     }
 }
+
+.link-home {
+    width: 10rem;
+    background-color: #4e73df;
+    border-radius: 3px;
+    color: #d1d3e2;
+    padding: 1rem 1.2rem;
+    transition: 300ms;
+}
+
+.link-home:hover {
+    background-color: #3059d4;
+    color: #d1d3e2;
+    text-decoration: none;
+}
+
+.img-check {
+    max-width: 15rem;
+}
