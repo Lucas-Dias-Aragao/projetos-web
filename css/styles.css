@@ -39,18 +39,19 @@ textarea {
     
 }
 
+.scroll-form {
+    max-height: 300px;
+    max-width: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
 @media screen and (min-width: 770px){
     .genero-altura {
         max-height: 120px;
         box-sizing: border-box;
     } 
-    .scroll-form {
-        max-height: 400px;
-        max-width: auto;
-        overflow-y: scroll;
-        overflow-x: hidden;
-        box-sizing: border-box;
-    }
 }
 
 .link-home {

@@ -333,234 +333,242 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid mb-4">
+                    <div>
 
-                    <!-- Container do form -->
-                    <div class="container col-xl-10 col-md-12">
-                        <!-- Page Heading -->
-                        <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                            <h1 class="h3 mb-0 text-gray-800">Cadastrar Filme</h1>
-                        </div>
+                        <!-- Container do form -->
+                        <div class="container col-xl-10 col-md-12">
+                            <!-- Page Heading -->
+                            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                                <h1 class="h3 mb-0 text-gray-800">Cadastrar Filme</h1>
+                            </div>
 
-                        <div class="row">
-                            <!-- início do form -->
-                            <form class="form" id="formFilme" data-cadFilme>
-                                <div class="scroll-form col">
+                            <div class="row">
+                                <!-- início do form -->
+                                <form class="form mb-4" id="formFilme" data-cadFilme>
+                                    <div class="scroll-form col">
 
-                                    <div class="form-group">
+                                        <div class="form-group">
+
+                                            <div class="row">
+                                                <div class="form-floating mb-3 col-md-12">
+                                                    <input type="text" class="form-control titulo" id="inputTitulo"
+                                                        placeholder="">
+                                                    <label for="inputTitulo" class="pl-4">Título</label>
+                                                </div>
+
+                                                <div class="form-floating mb-3 col-md-12 col-xl-4">
+                                                    <input type="date" class="form-control estreia" id="inputEstreia"
+                                                        placeholder="">
+                                                    <label for="inputEstreia" class="pl-4">Estreia</label>
+                                                </div>
+                                                <div class="form-floating mb-3 col-md-12 col-xl-4">
+                                                    <input type="number" class="form-control duracao" id="inputDuracao"
+                                                        placeholder="">
+                                                    <label for="inputDuracao" class="pl-4">Duração (minutos)</label>
+                                                </div>
+
+                                                <div class="form-floating mb-3 col-md-12 col-xl-4">
+                                                    <select class="form-select classificacao" id="inputClassificacao"
+                                                        aria-label="Floating label select example">
+                                                        <option value="">Selecione...</option>
+                                                        <option value="L">Livre</option>
+                                                        <option value="10">10</option>
+                                                        <option value="12">12</option>
+                                                        <option value="14">14</option>
+                                                        <option value="16">16</option>
+                                                        <option value="18">18</option>
+                                                    </select>
+                                                    <label for="inputClassificacao" class="pl-4">Classificação</label>
+                                                </div>
+
+                                                <div class="form-floating mb-3 col-md-12 col-xl-4">
+                                                    <select class="form-select idioma" id="inputIdioma"
+                                                        aria-label="Floating label select example">
+                                                        <option value="">Selecione...</option>
+                                                        <option value="coreano">Coreano</option>
+                                                        <option value="espanhol">Espanhol</option>
+                                                        <option value="frances">Francês</option>
+                                                        <option value="ingles">Inglês</option>
+                                                        <option value="italiano">Italiano</option>
+                                                        <option value="portugues-br">Português-BR</option>
+                                                        <option value="portugues-pt">Português-PT</option>
+                                                        <option value="mandarim">Mandarim</option>
+                                                    </select>
+                                                    <label for="inputIdioma" class="pl-4">Idioma</label>
+                                                </div>
+
+                                                <div class="form-floating mb-3 col-md-12 col-xl-4">
+                                                    <input type="number" step="0.01" class="form-control orcamento"
+                                                        id="inputOrcamento" placeholder="0.00">
+                                                    <label for="inputOrcamento" class="pl-4">Orçamento (U$)</label>
+                                                </div>
+
+                                                <div class="form-floating mb-3 col-md-12 col-xl-4">
+                                                    <input type="number" step="0.01" class="form-control bilheteria"
+                                                        id="inputBilheteria" placeholder="0.00">
+                                                    <label for="inputBilheteria" class="pl-4">Bilheteria (U$)</label>
+                                                </div>
+
+                                                <div class="form-floating mb-3 col-md-12 col-xl-6">
+                                                    <input type="text" step="0.01" class="form-control produtora"
+                                                        id="inputProdutora" placeholder="">
+                                                    <label for="inputProdutora" class="pl-4">Produtora</label>
+                                                </div>
+
+                                                <div class="form-floating mb-3 col-md-12 col-xl-6">
+                                                    <input type="text" class="form-control estudio" id="inputEstudio"
+                                                        placeholder="">
+                                                    <label for="inputEstudio" class="pl-4">Estúdio</label>
+                                                </div>
+
+                                                <div class="form-floating mb-3 col-md-12 col-xl-6">
+                                                    <input type="text" class="form-control diretor" id="inputDiretor"
+                                                        placeholder="">
+                                                    <label for="inputDiretor" class="pl-4">Diretor</label>
+                                                </div>
+
+                                                <div class="form-floating mb-3 col-md-12 col-xl-6">
+                                                    <input type="text" class="form-control roteirista"
+                                                        id="inputRoteirista" placeholder="">
+                                                    <label for="inputRoteirista" class="pl-4">Roteirista</label>
+                                                </div>
+
+                                                <div class="mb-3 col-md-12">
+                                                    <label for="inputTeaser" class="">Teaser</label>
+                                                    <input type="file" class="form-control teaser" id="inputTeaser"
+                                                        placeholder="">
+                                                </div>
+
+                                                <div class="mb-3 col-md-12">
+                                                    <label for="inputTeaser" class="">Poster</label>
+                                                    <input type="file" class="form-control poster" id="inputTeaser"
+                                                        placeholder="">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <!-- adicionar atores -->
 
                                         <div class="row">
-                                            <div class="form-floating mb-3 col-md-12">
-                                                <input type="text" class="form-control titulo" id="inputTitulo"
-                                                    placeholder="">
-                                                <label for="inputTitulo" class="pl-4">Título</label>
+                                            <label for="addAtor" class="form-label">Atores:</label>
+                                            <div class="mb-1">
+                                                <input type="text" class="form-control mb-3 col-sm-12 col-xl-6"
+                                                    id="addAtor" placeholder="Nome do ator">
+                                                <button type="button"
+                                                    class="btn btn-primary col-md-2 btn-custom col-md-11 col-xl-4 mx-auto"
+                                                    onclick="adicionaAtor()">Adicionar</button>
+                                            </div>
+                                            <div class="">
+                                                <label for="textAreaAtores" class="form-label"></label>
+                                                <textarea class="form-control fixed-size atores" id="textAreaAtores"
+                                                    readonly></textarea>
+                                            </div>
+                                        </div>
+
+                                        <!-- fim de adicionar atores -->
+
+
+                                        <label class="mt-3">Gênero do Filme:</label><br>
+                                        <div class="d-flex flex-column flex-md-wrap genero-altura">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="action"
+                                                    value="Ação">
+                                                <label class="form-check-label" for="action">Ação</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="adventure"
+                                                    value="Aventura">
+                                                <label class="form-check-label" for="adventure">Aventura</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="comedy"
+                                                    value="Comédia">
+                                                <label class="form-check-label" for="comedy">Comédia</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="drama"
+                                                    value="Drama">
+                                                <label class="form-check-label" for="drama">Drama</label>
                                             </div>
 
-                                            <div class="form-floating mb-3 col-md-12 col-xl-4">
-                                                <input type="date" class="form-control estreia" id="inputEstreia"
-                                                    placeholder="">
-                                                <label for="inputEstreia" class="pl-4">Estreia</label>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="fantasy"
+                                                    value="Fantasia">
+                                                <label class="form-check-label" for="fantasy">Fantasia</label>
                                             </div>
-                                            <div class="form-floating mb-3 col-md-12 col-xl-4">
-                                                <input type="number" class="form-control duracao" id="inputDuracao"
-                                                    placeholder="">
-                                                <label for="inputDuracao" class="pl-4">Duração (minutos)</label>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="horror"
+                                                    value="Terror">
+                                                <label class="form-check-label" for="horror">Terror</label>
                                             </div>
-
-                                            <div class="form-floating mb-3 col-md-12 col-xl-4">
-                                                <select class="form-select classificacao" id="inputClassificacao"
-                                                    aria-label="Floating label select example">
-                                                    <option value="">Selecione...</option>
-                                                    <option value="L">Livre</option>
-                                                    <option value="10">10</option>
-                                                    <option value="12">12</option>
-                                                    <option value="14">14</option>
-                                                    <option value="16">16</option>
-                                                    <option value="18">18</option>
-                                                </select>
-                                                <label for="inputClassificacao" class="pl-4">Classificação</label>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="mystery"
+                                                    value="Mistério">
+                                                <label class="form-check-label" for="mystery">Mistério</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="romance"
+                                                    value="Romance">
+                                                <label class="form-check-label" for="romance">Romance</label>
                                             </div>
 
-                                            <div class="form-floating mb-3 col-md-12 col-xl-4">
-                                                <select class="form-select idioma" id="inputIdioma"
-                                                    aria-label="Floating label select example">
-                                                    <option value="">Selecione...</option>
-                                                    <option value="coreano">Coreano</option>
-                                                    <option value="espanhol">Espanhol</option>
-                                                    <option value="frances">Francês</option>
-                                                    <option value="ingles">Inglês</option>
-                                                    <option value="italiano">Italiano</option>
-                                                    <option value="portugues-br">Português-BR</option>
-                                                    <option value="portugues-pt">Português-PT</option>
-                                                    <option value="mandarim">Mandarim</option>
-                                                </select>
-                                                <label for="inputIdioma" class="pl-4">Idioma</label>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="sci-fi"
+                                                    value="Ficção Científica">
+                                                <label class="form-check-label" for="sci-fi">Ficção Científica</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="thriller"
+                                                    value="Thriller">
+                                                <label class="form-check-label" for="thriller">Thriller</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="animation"
+                                                    value="Animação">
+                                                <label class="form-check-label" for="animation">Animação</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="documentary"
+                                                    value="Documentário">
+                                                <label class="form-check-label" for="documentary">Documentário</label>
                                             </div>
 
-                                            <div class="form-floating mb-3 col-md-12 col-xl-4">
-                                                <input type="number" step="0.01" class="form-control orcamento"
-                                                    id="inputOrcamento" placeholder="0.00">
-                                                <label for="inputOrcamento" class="pl-4">Orçamento (U$)</label>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="musical"
+                                                    value="Musical">
+                                                <label class="form-check-label" for="musical">Musical</label>
                                             </div>
-
-                                            <div class="form-floating mb-3 col-md-12 col-xl-4">
-                                                <input type="number" step="0.01" class="form-control bilheteria"
-                                                    id="inputBilheteria" placeholder="0.00">
-                                                <label for="inputBilheteria" class="pl-4">Bilheteria (U$)</label>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="biography"
+                                                    value="Biografia">
+                                                <label class="form-check-label" for="biography">Biografia</label>
                                             </div>
-
-                                            <div class="form-floating mb-3 col-md-12 col-xl-6">
-                                                <input type="text" step="0.01" class="form-control produtora" id="inputProdutora"
-                                                    placeholder="">
-                                                <label for="inputProdutora" class="pl-4">Produtora</label>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="policial"
+                                                    value="Policial">
+                                                <label class="form-check-label" for="policial">Policial</label>
                                             </div>
-
-                                            <div class="form-floating mb-3 col-md-12 col-xl-6">
-                                                <input type="text" class="form-control estudio" id="inputEstudio"
-                                                    placeholder="">
-                                                <label for="inputEstudio" class="pl-4">Estúdio</label>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="espionagem"
+                                                    value="Espionagem">
+                                                <label class="form-check-label" for="espionagem">Espionagem</label>
                                             </div>
-
-                                            <div class="form-floating mb-3 col-md-12 col-xl-6">
-                                                <input type="text" class="form-control diretor" id="inputDiretor"
-                                                    placeholder="">
-                                                <label for="inputDiretor" class="pl-4">Diretor</label>
-                                            </div>
-
-                                            <div class="form-floating mb-3 col-md-12 col-xl-6">
-                                                <input type="text" class="form-control roteirista" id="inputRoteirista"
-                                                    placeholder="">
-                                                <label for="inputRoteirista" class="pl-4">Roteirista</label>
-                                            </div>
-
-                                            <div class="mb-3 col-md-12">
-                                                <label for="inputTeaser" class="">Teaser</label>
-                                                <input type="file" class="form-control teaser" id="inputTeaser" placeholder="">
-                                            </div>
-
-                                            <div class="mb-3 col-md-12">
-                                                <label for="inputTeaser" class="">Poster</label>
-                                                <input type="file" class="form-control poster" id="inputTeaser" placeholder="">
-                                            </div>
-
                                         </div>
 
-                                    </div>
-
-                                    <!-- adicionar atores -->
-
-                                    <div class="row">
-                                        <label for="addAtor" class="form-label">Atores:</label>
-                                        <div class="mb-1">
-                                            <input type="text" class="form-control mb-3 col-sm-12 col-xl-6" id="addAtor"
-                                                placeholder="Nome do ator">
-                                            <button type="button"
-                                                class="btn btn-primary col-md-2 btn-custom col-md-11 col-xl-4 mx-auto"
-                                                onclick="adicionaAtor()">Adicionar</button>
-                                        </div>
-                                        <div class="">
-                                            <label for="textAreaAtores" class="form-label"></label>
-                                            <textarea class="form-control fixed-size atores" id="textAreaAtores"
-                                                readonly></textarea>
-                                        </div>
-                                    </div>
-
-                                    <!-- fim de adicionar atores -->
-
-
-                                    <label class="mt-3">Gênero do Filme:</label><br>
-                                    <div class="d-flex flex-column flex-md-wrap genero-altura">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="action" value="Ação">
-                                            <label class="form-check-label" for="action">Ação</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="adventure"
-                                                value="Aventura">
-                                            <label class="form-check-label" for="adventure">Aventura</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="comedy" value="Comédia">
-                                            <label class="form-check-label" for="comedy">Comédia</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="drama" value="Drama">
-                                            <label class="form-check-label" for="drama">Drama</label>
-                                        </div>
-
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="fantasy"
-                                                value="Fantasia">
-                                            <label class="form-check-label" for="fantasy">Fantasia</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="horror" value="Terror">
-                                            <label class="form-check-label" for="horror">Terror</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="mystery"
-                                                value="Mistério">
-                                            <label class="form-check-label" for="mystery">Mistério</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="romance"
-                                                value="Romance">
-                                            <label class="form-check-label" for="romance">Romance</label>
-                                        </div>
-
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="sci-fi"
-                                                value="Ficção Científica">
-                                            <label class="form-check-label" for="sci-fi">Ficção Científica</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="thriller"
-                                                value="Thriller">
-                                            <label class="form-check-label" for="thriller">Thriller</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="animation"
-                                                value="Animação">
-                                            <label class="form-check-label" for="animation">Animação</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="documentary"
-                                                value="Documentário">
-                                            <label class="form-check-label" for="documentary">Documentário</label>
-                                        </div>
-
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="musical"
-                                                value="Musical">
-                                            <label class="form-check-label" for="musical">Musical</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="biography"
-                                                value="Biografia">
-                                            <label class="form-check-label" for="biography">Biografia</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="policial"
-                                                value="Policial">
-                                            <label class="form-check-label" for="policial">Policial</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="espionagem"
-                                                value="Espionagem">
-                                            <label class="form-check-label" for="espionagem">Espionagem</label>
+                                        <div class="mb-3 mt-3">
+                                            <label for="exampleTextarea" class="form-label">Sinopse</label>
+                                            <textarea class="form-control sinopse" id="textAreaSinopse" rows="5"
+                                                maxlength="600"></textarea>
+                                            <span id="contador">0</span>/600 caracteres.
                                         </div>
                                     </div>
 
-                                    <div class="mb-3 mt-3">
-                                        <label for="exampleTextarea" class="form-label">Sinopse</label>
-                                        <textarea class="form-control sinopse" id="textAreaSinopse" rows="5"
-                                            maxlength="600"></textarea>
-                                        <span id="contador">0</span>/600 caracteres.
-                                    </div>
-                                </div>
-
-                                <button type="submit" class="btn btn-lg btn-primary" id="salvar">Salvar</button>
-                                <button type="button" class="btn btn-lg btn-danger">Cancelar</button>
-                            </form>
+                                    <button type="submit" class="btn btn-lg btn-primary" id="salvar">Salvar</button>
+                                    <button type="button" class="btn btn-lg btn-danger">Cancelar</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -570,10 +578,11 @@
             <footer class="sticky-footer mt-3">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Gabriel Lucca & Lucas Dias 2024</span>
+                        <span>Copyright &copy; Lucas Dias 2024</span>
                     </div>
                 </div>
             </footer>
+
         </div>
         <!-- End of Main Content -->
         <!-- /.container-fluid -->
@@ -607,7 +616,6 @@
             </div>
         </div>
     </div>
-
     <script src="../../api.js" type="module"></script>
 
     <!-- <script src="../../js/controller/filme/cadastraFilme-controller.js" type="module"></script> -->
@@ -629,7 +637,7 @@
     <script src="../../js/demo/chart-area-demo.js"></script>
     <script src="../../js/demo/chart-pie-demo.js"></script>
     <script src="../../js/input-cadastro-filme.js"></script>
-    
+
 
 </body>
 
